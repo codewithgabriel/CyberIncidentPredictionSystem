@@ -2,6 +2,6 @@ matplotlib
 pandas
 numpy
 pickleshare == 0.7.5
-theono
+theano
 keras
 tensorflow
