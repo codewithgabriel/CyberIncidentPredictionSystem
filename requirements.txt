@@ -1,6 +1,5 @@
 scikit-learn
 cuda-python 
-nvidia-pyindex
 whitenoise
 gunicorn
 django
