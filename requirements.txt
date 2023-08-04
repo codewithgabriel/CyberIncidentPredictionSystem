@@ -7,4 +7,3 @@ numpy
 pickleshare == 0.7.5
 theano
 keras
-tensorflow-cpu == 2.12.0
