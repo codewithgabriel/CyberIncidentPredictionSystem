@@ -1,5 +1,5 @@
 scikit-learn
-pycuda === 12.2.0
+pycuda == 12.2.0
 nvidia-pyindex
 whitenoise
 gunicorn
