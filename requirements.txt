@@ -1,7 +1,7 @@
 matplotlib
 pandas
 numpy
-pickle
+pickle == 4.0
 theono
 keras
 tensorflow
