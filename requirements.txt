@@ -1,3 +1,5 @@
+nvidia-pyindex
+nvidia-tensorrt
 whitenoise
 gunicorn
 django
