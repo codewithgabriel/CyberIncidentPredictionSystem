@@ -2,6 +2,7 @@
 # exit on error
 set -o errexit
 python -m pip install pip --upgrade
+pip uninstall tensorflow
 pip install -r requirements.txt
 
 python manage.py collectstatic --no-input
