@@ -1,0 +1,29 @@
+<h4> DoS Attack Assessment Report </h4>
+
+<h4> Summary: <h4>
+This report evaluates the impact of a Denial of Service (DoS) attack on our network.
+
+<h4> Findings: </h4>
+<ol>
+    <li> <strong> Resource Overload: </strong> Attack flooded network, consuming resources. </li>
+    <li>  <strong> Service Disruption: </strong> Systems rendered inaccessible to users. </li>
+    <li> <strong> Data at Risk: </strong> Potential loss or compromise of data. </li>
+
+</ol>
+ 
+
+<h4> Recommendations: </h4>
+
+<ol>
+    <li>  <strong> Intrusion Detection: </strong> Implement robust IDS to identify and mitigate attacks. </li>
+    <li> <strong> Traffic Filtering: </strong> Use firewalls to block malicious traffic. </li>
+    <li> <strong> Redundancy: </strong> Set up backup systems for continuous operation. </li>
+    <li> <strong> Response Plan:</strong> Develop procedures for rapid attack response. </li>
+
+</ol>
+
+ 
+
+<h4> Conclusion: </h4>
+
+A DoS attack can cripple operations and jeopardize data. Implement safeguards to ensure network availability and data integrity.

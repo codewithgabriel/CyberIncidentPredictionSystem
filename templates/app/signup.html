@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<body class="text-center">
+  <h1 class="mb-10">Cyber Incident Prediction model </h1>
+
+  <main class="form-signin">
+    <form action="{% url 'model:signup' %}" method="post">
+      <h3 class="h3 mb-3 fw-normal">Create Account </h3>
+     
+      <div class="alert {{ class }}" style="display: '{{ display }}';">
+        {{ res_mes }}
+      </div>
+
+      <div class="form-floating">
+        {% csrf_token %}
+      </div>
+      <div class="form-floating">
+        <input type="text" name="fullname"  required class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Full Name</label>
+      </div>
+      <div class="form-floating">
+        <input type="email" name="username"  required class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address or Username</label>
+      </div>
+      <div class="form-floating">
+        <input type="password"   name="userauth" required class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword"> Password </label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+            or
+        </label>
+        <label>
+          <a href="{% url 'model:index'  %}">  Sign In Here </a>
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Create Account </button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
+    </form>
+  </main>
+
+
+
+</body>
+
+</html>
+
+{% endblock %}

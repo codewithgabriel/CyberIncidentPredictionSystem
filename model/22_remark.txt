@@ -1,0 +1,37 @@
+<h4>Vulnerability Assessment Report: DoS Attack on Port 22 (SSH) </h4>
+
+<h4 >Summary:</h4>
+This report highlights the risk of a Denial of Service (DoS) attack on port 22, used for SSH services. A DoS attack could overload the server, disrupting remote access and administrative control.
+
+
+<h4> Findings: </h4>
+<ul>
+
+    <li> Connection Exhaustion: Server resources overwhelmed by numerous connection requests. </li>
+    <li> Unresponsive Server: Legitimate users experience delays or failures in SSH connections </li>
+    <li> Loss of Administrative Control: Extended DoS attack may result in loss of server management. </li>
+
+</ul>
+
+<h4> Recommendations: </h4>
+
+<ol>
+
+    <li>
+    Firewall Rules: Limit incoming connections from single IP addresses.
+    </li>
+
+    <li>
+        Intrusion Prevention: Use IPS to detect and respond to DoS attacks.
+    </li>
+    <li>
+        SSH Hardening: Follow best practices for SSH security.
+    </li>
+    <li>
+        Monitoring and Alerting: Continuously monitor SSH performance for anomalies.
+    </li>
+
+</ol>
+
+</h4> Conclusion: </h4>
+A DoS attack on port 22 poses a significant risk to SSH services and server management. Implementation of recommended measures is crucial to ensure continuous remote access and minimize potential disruptions.

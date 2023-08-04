@@ -1,0 +1,31 @@
+<h4>Vulnerability Assessment Report: DoS Attack on Port 21 (FTP)</h4>
+
+<h4>Summary:</h4>
+This report highlights the risk of a DoS attack on port 21, which serves FTP. The attack can overwhelm the server, disrupting file transfers.
+
+<h4>Findings:</h4>
+
+<ol>
+    <li> Connection Overload: Server inundated with connection requests. </li>
+    <li> Slow Service: Legitimate users experience delays </li>
+    <li> Data Transfer Disruption: Prolonged attack may disrupt file transfers.</li>
+
+</ol>
+
+
+
+<h4>Recommendations:</h4>
+
+<ol>
+    <li>Traffic Management: Use rate limiting to restrict connections. </li>
+    <li>  Intrusion Prevention: Deploy IPS for detecting and countering DoS attacks. </li>
+    <li> Load Balancing: Distribute traffic to multiple servers. </li>
+    <li> Resource Monitoring: Keep track of server resources during attacks. </li>
+
+
+</ol>
+
+
+
+<h4>Conclusion:</h4>
+A DoS attack on port 21 poses a file transfer disruption risk. Follow recommendations for robust FTP services and minimize potential interruptions.
